@@ -1,0 +1,153 @@
+.background-color{
+    color: white;
+}
+.centered-text{
+    text-align: center;
+}
+
+.white-text{
+    color:white;
+}
+
+#shift_para_down{
+    top:50px;
+}
+.button{
+    right:60px;
+    position:absolute;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.motto_position{
+    position:relative;
+}
+a{
+    color: black;
+}
+.container-fluid{
+    height:65px;
+    width:540px;
+}
+
+#page-container3{
+    max-width:100%;
+    height:3500px;
+    background-color: white;
+    margin: auto;
+    width:745px;
+    box-shadow: 0 0 75px red;
+}
+
+#page-container2{
+    max-width:100%;
+    height:3000px;
+    background-color: white;
+    margin: auto;
+    width:745px;
+    box-shadow: 0 0 75px red;
+}
+.background-carbon{
+    background-image: url('images/carbon_fiber.png');
+}
+.page-container{
+    max-width:100%;
+    height:1000px;
+    background-color: white;
+    margin: auto;
+    width:745px;   
+    animation-name: backgroundGlow;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+
+}
+.button_shadow:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.navbar{
+    display: inline-flex;
+    top:25px;
+    padding: 10px;
+    color:white;
+    background-color: transparent;
+    font-family: 'Bahnschrift Light', 'Century Gothic','helvetica', sans-serif;
+}
+.type_face{
+    font-family: 'Bahnschrift Light', 'Calibri Light','Century Gothic','helvetica', sans-serif;
+}
+
+.me_resize{
+    position: relative;
+    top: 50px;
+}
+#name_position{
+    position:relative;
+    top: 225px;
+}
+
+#home_title_position{
+   margin: 0 auto;
+}
+
+.my_pc_resize{
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    display:inline;
+}
+
+.my_pc_position{
+    top: 50px;
+}
+.pro_con_font{
+    font-size: 16pt;
+    
+}
+
+.logo_position{
+    padding: 20px 20px 0 0;
+
+}
+#about-position{
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 70px;
+}
+.home-position{
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 100px;
+}
+.pro_con_position{
+    position:relative;
+    top:200px;
+}
+.fadeIn{
+    animation-name: fadein;
+    animation-duration: 10s
+
+}
+.position-absolute{
+
+    position:absolute;
+
+}
+
+
+
+@keyframes backgroundGlow{
+    0%{ box-shadow: 0 0 90px red; }
+    16%{ box-shadow: 0 0 90px orange; }
+    32%{ box-shadow: 0 0 90px wheat; }
+    50%{ box-shadow: 0 0 90px green; }
+    68%{ box-shadow: 0 0 90px cyan; }
+    84%{ box-shadow: 0 0 90px purple; }
+    100%{ box-shadow: 0 0 90px red; }
+}
+
+@keyframes fadein {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
